@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.dodo.flames.MainActivity" 
+    android:background="@drawable/background_pot"
+    android:id="@+id/main">
+    
+   	<EditText 
+   	    android:id="@+id/f_name"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0dp"
+   	    android:layout_weight="1"
+   	    android:textSize="95sp"
+   	    android:hint="@string/enter_f_name"
+   	    android:inputType="textCapWords"
+   	    android:textColorHint="@color/teal"/>
+
+   	<EditText
+   	    android:id="@+id/s_name"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0dp"
+   	    android:layout_weight="1"
+   	    android:hint="@string/enter_s_name"
+   	    android:inputType="textCapWords"
+   	    android:textColorHint="@color/teal"
+   	    android:textSize="95sp" >
+   	</EditText>
+   	
+   	<ImageView 
+   	    android:id="@+id/flame_it"
+   	    android:src="@drawable/flame"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0dp"
+   	    android:layout_weight="3"
+   	    android:layout_gravity="center"
+   	    android:clickable="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/button"/>
+   	
+   	<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.7"
+    android:orientation="horizontal">
+   		<Button 
+   	    	android:id="@+id/clear"
+   	    	android:layout_width="0dp"
+   	    	android:layout_height="wrap_content"
+   	    	android:layout_weight="1"
+   	    	android:layout_gravity="center"
+   	    	android:text="@string/clr"
+   	    	android:textColor="@color/green"
+   	    	android:textSize="45sp"
+   	    	android:gravity="center"/>
+   	    
+   	    <Button 
+   	        android:id="@+id/what"
+   	    	android:layout_width="0dp"
+   	    	android:layout_height="wrap_content"
+   	    	android:layout_weight="1"
+   	    	android:layout_gravity="center"
+   	    	android:text="@string/what"
+   	    	android:textSize="45sp"
+   	    	android:textColor="@color/green"
+   	    	android:gravity="center"/>
+   	</LinearLayout>
+
+</LinearLayout>

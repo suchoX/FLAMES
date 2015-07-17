@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:Flames="http://schemas.android.com/apk/res-auto">
+    	
+    <item android:id="@+id/Back"
+          android:icon="@drawable/ic_action_back"
+          android:title="@string/action_share"
+          Flames:showAsAction="always" />
+</menu>

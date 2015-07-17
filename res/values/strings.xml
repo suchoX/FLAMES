@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flames</string>
+    <string name="enter_f_name">Your Name</string>
+    <string name="enter_s_name">Partner\'s Name</string>
+    <string name="action_settings">Settings</string>
+    <string name="what">What is This?</string>
+    <string name="clr">Clear</string>
+    <string name="exit">Exit</string>
+    <string name="action_share">Share</string>
+    <string name="history">History</string>
+    <string name="close">Close</string>
+    <string name="button">This is for Flaming up the Name</string>
+    <string name="heading_s">What is Flames?</string>
+    <string name="body_s">FlamesGame is a Relationship Calculating Algorithm famous between the youngsters and even adults. 
+        At the time of Graduation or at High Schooleveryone might heard about this and many of them tried out this secretly. 
+        People have been known to take this seriousy! So what does FLAMES stand for? </string>
+    <string name="F_s">F - Friendship </string>
+    <string name="L_s">L - Love </string>
+    <string name="A_s">A - Attraction </string>
+    <string name="M_s">M - Marriage </string>
+    <string name="E_s">E - Enemy </string>
+    <string name="S_s">S - Sister (Sibling)</string>
+    <string name="conclusion_s">So, Do you have the guts to find out what is the real thing between you two?</string>
+
+</resources>
